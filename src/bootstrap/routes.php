@@ -6,7 +6,13 @@
  * @copyright Copyright (c) 2015 Mathias Latzko
  * @license   https://opensource.org/licenses/MIT
  */
+$config = $app->getContainer()->get('config');
+$logger = $app->getContainer()->get('logger');
 
-$app->get('/example', function($request, $response){
-    return $response->withJson(array('status' => 'ok', 'content' => array()), 200);
+$app->get('/example', function($request, $response) use ($config, $logger){
+    $responseData = array('status' => 'ok', 'config' => $config->get('app'));
+
+    $logger->debug('Example executed.');
+
+    return $response->withJson($responseData, 200);
 });
