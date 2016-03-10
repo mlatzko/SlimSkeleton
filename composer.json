@@ -1,6 +1,6 @@
 {
-    "name": "mlatzko/SlimRouter",
-    "description": "A Slim3 based router to access SlimMicroService based services.",
+    "name": "mlatzko/SlimSkeleton",
+    "description": "A skeleton for Slim based applications.",
     "license": "https://opensource.org/licenses/MIT",
     "type": "project",
     "keywords": ["slim-framework", "skeleton", "router", "service"],

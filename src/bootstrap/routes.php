@@ -2,7 +2,7 @@
 /**
  * Routing of the application.
  *
- * @link      https://github.com/mlatzko/SlimRouter
+ * @link      https://github.com/mlatzko
  * @copyright Copyright (c) 2015 Mathias Latzko
  * @license   https://opensource.org/licenses/MIT
  */
