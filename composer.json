@@ -25,6 +25,6 @@
         "monolog/monolog"  : "1.17",
         "hassankhan/config": "0.8.2",
         "symfony/yaml"     : "2.5.0",
-        "nategood/httpful" :"0.2.20"
+        "nategood/httpful" : "0.2.20"
     }
 }
