@@ -1,0 +1,8 @@
+/build/*/
+/build/cache.properties
+!/build/.gitkeep
+
+/src/vendor/*
+!/src/vendor/.gitkeep
+
+/composer.lock

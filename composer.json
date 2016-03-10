@@ -1,0 +1,30 @@
+{
+    "name": "mlatzko/SlimRouter",
+    "description": "A Slim3 based router to access SlimMicroService based services.",
+    "license": "https://opensource.org/licenses/MIT",
+    "type": "project",
+    "keywords": ["slim-framework", "skeleton", "router", "service"],
+    "authors": [
+        {
+            "name": "Mathias Latzko",
+            "email": "mathias.latzko@gmail.com",
+            "homepage": "http://mlatzko.github.io/"
+        }
+    ],
+    "config": {
+        "vendor-dir": "src/vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/app",
+            "Noodlehaus\\": "src/vendor/hassankhan/config/src"
+        }
+    },
+    "require": {
+        "slim/slim"        : "3.0.0-RC2",
+        "monolog/monolog"  : "1.17",
+        "hassankhan/config": "0.8.2",
+        "symfony/yaml"     : "2.5.0",
+        "nategood/httpful" :"0.2.20"
+    }
+}

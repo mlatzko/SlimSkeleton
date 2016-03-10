@@ -1,0 +1,5 @@
+# Basics
+app:
+    name: skeleton.examle.com
+    version: 0.0.1
+    debug: true
